@@ -13,6 +13,23 @@ if the user isn't a robot
 
 ## Example Usage
 
+Load the Google ReCaptcha script:
+```
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+
+```
+
+Load the angularSimpleRecaptcha script after loading AngularJs:
+```
+<script type="text/javascript" src="bower_components/angular-simple-recaptcha/dist/angular-simple-recaptcha.min.js"></script>
+```
+
+Add angular simple recaptcha to your module dependencies
+```
+angular.module('yourModule', ['AngularSimpleRecaptcha'])
+```
+
+Use it where you want!
 ```
 <form name="[yourForm]">
 ...
@@ -30,5 +47,5 @@ Catching the error of the captcha.
 ## Bower package
 
 ```
-bower install angularSimpleRecaptcha
+bower install angular-simple-recaptcha
 ```

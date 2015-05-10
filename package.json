@@ -1,8 +1,8 @@
 {
-  "name": "angularSimpleRecaptcha",
+  "name": "angular-simple-recaptcha",
   "version": "1.0.0",
   "description": "A simple angular directive for Google ReCaptcha",
-  "main": "src/simpleRecaptchaDirective",
+  "main": "src/angular-simple-recaptcha.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
     "ReCaptcha"
   ],
   "author": "Jeroen Bastijns",
+  "contributors": "Sander Elias",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bastijns-jeroen/angularSimpleReCaptcha/issues"

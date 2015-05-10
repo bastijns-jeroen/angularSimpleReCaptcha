@@ -55,6 +55,6 @@
         }
     }
 
-    angular.module('GoogleRecaptcha', [])
+    angular.module('AngularSimpleRecaptcha', [])
     .directive('simpleRecaptcha', simpleRecaptchaDirective);
 }());
