@@ -1,5 +1,5 @@
 {
-  "name": "angularSimpleReCaptcha",
+  "name": "angularSimpleRecaptcha",
   "version": "1.0.0",
   "description": "A simple angular directive for Google ReCaptcha",
   "main": "src/simpleRecaptchaDirective",

@@ -26,5 +26,5 @@ Catching the error of the captcha.
 ## Bower package:
 
 ```
-
+bower install angularSimpleRecaptcha
 ```
