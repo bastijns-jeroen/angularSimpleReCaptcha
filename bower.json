@@ -1,12 +1,13 @@
 {
-  "name": "angularSimpleRecaptcha",
+  "name": "angular-simple-recaptcha",
   "version": "1.0.0",
   "homepage": "https://github.com/bastijns-jeroen/angularSimpleReCaptcha",
   "authors": [
+    "Sander Elias",
     "Jeroen Bastijns"
   ],
   "description": "A simple angular directive for Google ReCaptcha",
-  "main": "src/simpleRecaptchaDirective",
+  "main": "src/angular-simple-recaptcha.js",
   "moduleType": [
     "amd"
   ],
