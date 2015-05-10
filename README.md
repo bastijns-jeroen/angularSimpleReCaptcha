@@ -7,7 +7,11 @@ Resets after timeout of the google Recaptcha.
 To make this system more bulletproof, you should use the respone on your server to verify
 if the user isn't a robot
 
-## Example Usage:
+## Authors
+- Sander Elias (https://github.com/SanderElias)
+- Jeroen Bastijns (https://github.com/bastijns-jeroen)
+
+## Example Usage
 
 ```
 <form name="[yourForm]">
@@ -23,7 +27,7 @@ Catching the error of the captcha.
 [yourform].$error.captcha
 ```
 
-## Bower package:
+## Bower package
 
 ```
 bower install angularSimpleRecaptcha
