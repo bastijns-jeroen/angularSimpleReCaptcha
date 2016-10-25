@@ -7,7 +7,8 @@
         {
             restrict: 'AE',
             scope: {
-              siteKey: '@'
+              siteKey: '@',
+			  captchaReady: '&'
             },
             require: 'ngModel',
             link: link,
@@ -38,6 +39,10 @@
                 // scope.$apply();
             }
 
+			function resetCaptcha() {
+				grecaptcha.reset(id);
+			}
+
             function iscaptchaReady() {
                 if (typeof grecaptcha !== "object") {
                     // api not yet ready, retry in a while
@@ -50,6 +55,7 @@
                         "expired-callback": expired
                     }
                 );
+				scope.captchaReady({ reset: resetCaptcha });
             }
             iscaptchaReady();
         }
