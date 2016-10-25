@@ -33,7 +33,7 @@ Use it where you want!
 ```
 <form name="[yourForm]">
 ...
-  <simple-recaptcha ng-model="loginCtrl.chaptcha"  site-key="[your-public-key-for-google-recaptcha]"></simple-recaptcha>
+  <simple-recaptcha ng-model="loginCtrl.chaptcha" site-key="[your-public-key-for-google-recaptcha]" captcha-ready="captchaReady(reset)"></simple-recaptcha>
 ...
 </form>
 ```
